@@ -1,0 +1,204 @@
+/*** This stylesheet belongs to hillarylouisejohnson.com. Updated May 2017 ***/
+
+body {
+  padding-top: 70px;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+p a {
+  font-weight: bold;
+}
+
+p a:hover {
+  text-decoration: none;
+}
+
+/*** collapsible buttons ***/
+
+.more-button {
+  display: block;
+  margin: 20px auto;
+  border-radius: 5%;
+}
+
+.collapse.show {
+  visibility: visible;
+}
+
+/***navigation bar***/
+
+.navbar {
+  background: black;
+  opacity: 0.75;
+  padding: 10px;
+  border: none;
+}
+
+.navbar-brand {
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+}
+
+/*** bio ***/
+
+#bio {
+  background: url(http://www.dymaxicon.com/wp-content/uploads/2011/11/hillary-louise-johnson-web.jpg) top right repeat-x;
+  color: white;
+  background-attachment: fixed;
+}
+
+.bio-text {
+  padding: 180px 0px 40px 0px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.bio-text h4 {
+  padding: 20px;
+}
+
+.bio-text h4:hover {
+  border-radius: 5px;
+  padding: 20px;
+  background: black;
+  opacity: 0.75;
+}
+
+/*** writing and coding sections ***/
+
+#writing,
+#coding {
+  padding: 70px 20px 0px 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.clips {
+  font-size: 14px;
+  max-width: 400px;
+  margin: auto;
+}
+
+/*** book covers with hover effect ***/
+
+.covers {
+  background: linear-gradient(to bottom right, gray, white);
+  padding: 20px;
+}
+
+.cover {
+  max-height: 300px;
+  padding: 10px 0px;
+  margin: auto;
+  filter: grayscale(100%);
+}
+
+.cover:hover {
+  filter: none;
+}
+
+figcaption {
+  padding: 0px 20px;
+  margin: auto;
+  max-width: 230px;
+  font-family: times-new-roman;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/*** sailing ***/
+
+#sailing {
+  padding: 75px;
+  background: url(http://www.dymaxicon.com/wp-content/uploads/2017/05/HLJsailing.jpg) top right no-repeat;
+  filter: grayscale(100%);
+  background-size: cover;
+  color: white;
+  margin: 0px auto;
+}
+
+#sailing:hover {
+  filter: grayscale(0);
+}
+
+.sailing-row {
+  padding: 20px;
+}
+
+.sailing-row:hover {
+  border-radius: 5px;
+  background: black;
+  opacity: 0.75;
+}
+
+h3.sailing {
+  text-align: left;
+}
+
+/*** footer ***/
+
+.contact {
+  margin: auto;
+  padding-top: 20px;
+  max-width: 400px;
+}
+
+.send {
+  height: 32px;
+  padding: 0px 5px;
+  float: right;
+}
+
+#contact-form:after {
+    content:".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+button.send {
+  margin: 0px;
+}
+
+input.email-text {
+  width: 400px;
+  resize: horizontal;
+}
+
+footer {
+  text-align: center;
+  margin: 0px;
+  background: silver; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, silver, #b0e0e6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, silver, #b0e0e6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, silver, #b0e0e6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, gray, white); /* Standard syntax (must be last) */
+}
+
+.footer-icons {
+  font-size: 30px;
+  padding: 00px;
+  
+}
+
+.btn-circle {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+}
+
+.btn:focus, .btn:active, .btn.active, .btn:focus:active {
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
