@@ -2,6 +2,7 @@
 
 body {
   padding-top: 70px;
+  color: black;
 }
 
 .container-fluid {
@@ -21,6 +22,7 @@ p a:hover {
   text-decoration: none;
 }
 
+
 /*** collapsible buttons ***/
 
 .more-button {
@@ -32,6 +34,7 @@ p a:hover {
 .collapse.show {
   visibility: visible;
 }
+
 
 /***navigation bar***/
 
@@ -46,6 +49,11 @@ p a:hover {
   font-family: 'Caveat', cursive;
   font-size: 40px;
 }
+
+.navbar-right {
+  margin-right: 20px;
+}
+
 
 /*** bio ***/
 
@@ -72,13 +80,13 @@ p a:hover {
   opacity: 0.75;
 }
 
+
 /*** writing and coding sections ***/
 
-#writing,
-#coding {
+#writing, #coding {
   padding: 70px 20px 0px 20px;
   max-width: 600px;
-  margin: auto;
+  margin: 60px auto;
 }
 
 .clips {
@@ -86,6 +94,7 @@ p a:hover {
   max-width: 400px;
   margin: auto;
 }
+
 
 /*** book covers with hover effect ***/
 
@@ -109,28 +118,30 @@ figcaption {
   padding: 0px 20px;
   margin: auto;
   max-width: 230px;
-  font-family: times-new-roman;
+  font-family: Georgia, Serif;
   font-style: italic;
   font-weight: bold;
 }
+
 
 /*** sailing ***/
 
 #sailing {
   padding: 75px;
-  background: url(http://www.dymaxicon.com/wp-content/uploads/2017/05/HLJsailing.jpg) top right no-repeat;
-  filter: grayscale(100%);
+  background: url(http://www.dymaxicon.com/wp-content/uploads/2017/05/HLJsailing.jpg) no-repeat fixed 50% 20%;
   background-size: cover;
   color: white;
-  margin: 0px auto;
+  margin: auto;
+  margin-top: 30px;
 }
 
 #sailing:hover {
-  filter: grayscale(0);
+  filter: grayscale(100%);
 }
 
 .sailing-row {
   padding: 20px;
+  max-width: 600px;
 }
 
 .sailing-row:hover {
@@ -142,6 +153,7 @@ figcaption {
 h3.sailing {
   text-align: left;
 }
+
 
 /*** footer ***/
 
@@ -158,10 +170,10 @@ h3.sailing {
 }
 
 #contact-form:after {
-    content:".";
-    display: block;
-    clear: both;
-    visibility: hidden;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
 }
 
 button.send {
@@ -176,17 +188,21 @@ input.email-text {
 footer {
   text-align: center;
   margin: 0px;
-  background: silver; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(left top, silver, #b0e0e6); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, silver, #b0e0e6); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, silver, #b0e0e6); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, gray, white); /* Standard syntax (must be last) */
+  background: silver;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, gray, white);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, sgray, white);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, gray, white);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, gray, white);
+  /* Standard syntax (must be last) */
 }
 
 .footer-icons {
   font-size: 30px;
   padding: 00px;
-  
 }
 
 .btn-circle {
